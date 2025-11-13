@@ -2203,6 +2203,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -3338,6 +3445,12 @@
 		(uuid "201fc222-ee8a-4775-873f-b5c509e678a3")
 	)
 	(junction
+		(at 242.57 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29631fd0-1096-4a1d-8def-3679ccc794c4")
+	)
+	(junction
 		(at 242.57 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3923,6 +4036,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 88.9) (xy 242.57 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0eacefc-c65e-4f7c-b491-4ae74d0d681c")
+	)
+	(wire
+		(pts
 			(xy 210.82 113.03) (xy 200.66 113.03)
 		)
 		(stroke
@@ -4043,6 +4166,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 88.9) (xy 243.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df9e400e-31b5-4686-a6bc-7fb2b31b81f7")
+	)
+	(wire
+		(pts
 			(xy 121.92 81.28) (xy 121.92 82.55)
 		)
 		(stroke
@@ -4083,6 +4216,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 88.9) (xy 242.57 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02193f9-5133-4c99-953a-a23676c30ab0")
+	)
+	(wire
+		(pts
 			(xy 241.3 81.28) (xy 242.57 81.28)
 		)
 		(stroke
@@ -4120,6 +4263,16 @@
 			(type default)
 		)
 		(uuid "f93d379c-377e-4e17-a3e7-ec04b41d2d43")
+	)
+	(wire
+		(pts
+			(xy 242.57 92.71) (xy 241.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9925489-83d9-40e2-abd8-6210f751c188")
 	)
 	(label "A18-OUT_HB1"
 		(at 59.69 48.26 0)
@@ -5281,6 +5434,16 @@
 		)
 		(uuid "e64c2c4c-8e58-41e8-8342-2c3d5a64414b")
 	)
+	(label "ENGINE_GND"
+		(at 241.3 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e72f6a8d-5fa9-40af-8fd8-f87f8340ac9a")
+	)
 	(label "B26-ETH_RX-"
 		(at 237.49 31.75 180)
 		(effects
@@ -5933,6 +6096,73 @@
 			(project "M130-RIFB"
 				(path "/3eed3d9c-f5f4-4289-a774-547de9333987"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 246.38 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cddcde8-af8c-4051-a37f-96bb35e522f9")
+		(property "Reference" "H1"
+			(at 250.19 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 250.19 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad_TopBottom"
+			(at 246.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 246.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df7e80e6-a61b-4ad7-8153-46844d2fc826")
+		)
+		(instances
+			(project ""
+				(path "/3eed3d9c-f5f4-4289-a774-547de9333987"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6706,6 +6936,72 @@
 			(project "M130-RIFB"
 				(path "/3eed3d9c-f5f4-4289-a774-547de9333987"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5752a687-67c0-423b-8e77-9c97724ebeac")
+		(property "Reference" "#PWR024"
+			(at 234.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.506 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1deb5e07-917d-4e57-a567-9e01c600c80d")
+		)
+		(instances
+			(project "M130-Distribution-HUB"
+				(path "/3eed3d9c-f5f4-4289-a774-547de9333987"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)

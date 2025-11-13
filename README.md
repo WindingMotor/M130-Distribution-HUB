@@ -120,7 +120,7 @@ You are free to:
 - Use commercially
 - Modify
 - Distribute
-- Use in closed source
+- Use in closed source, with notice of changes
 
 See [LICENSE](LICENSE) file for full terms.
 
