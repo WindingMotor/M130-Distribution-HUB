@@ -5579,7 +5579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a8475ee-a7be-42ea-98eb-1b804c9c1092")
-		(property "Reference" "MASTER_RELAY_U2"
+		(property "Reference" "MASTER_RELAY_U1"
 			(at 60.198 113.284 0)
 			(effects
 				(font
@@ -5648,7 +5648,7 @@
 		(instances
 			(project "M130-RIFB"
 				(path "/3eed3d9c-f5f4-4289-a774-547de9333987"
-					(reference "MASTER_RELAY_U2")
+					(reference "MASTER_RELAY_U1")
 					(unit 1)
 				)
 			)
@@ -7112,7 +7112,7 @@
 				)
 			)
 		)
-		(property "Value" "15A"
+		(property "Value" "10A"
 			(at 130.81 182.88 0)
 			(effects
 				(font
@@ -7375,7 +7375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a476840-0ddb-4bc1-93bb-c5cfceb63a77")
-		(property "Reference" "LIGHTS_RELAY_U1"
+		(property "Reference" "LIGHTS_RELAY_U4"
 			(at 132.588 157.734 0)
 			(effects
 				(font
@@ -7444,7 +7444,7 @@
 		(instances
 			(project "M130-RIFB"
 				(path "/3eed3d9c-f5f4-4289-a774-547de9333987"
-					(reference "LIGHTS_RELAY_U1")
+					(reference "LIGHTS_RELAY_U4")
 					(unit 1)
 				)
 			)
@@ -8140,7 +8140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0395e06-6eab-4bde-aa23-a0eff96d84ef")
-		(property "Reference" "FUEL_PUMP_RELAY_U1"
+		(property "Reference" "FUEL_PUMP_RELAY_U2"
 			(at 132.588 114.554 0)
 			(effects
 				(font
@@ -8209,7 +8209,7 @@
 		(instances
 			(project "M130-RIFB"
 				(path "/3eed3d9c-f5f4-4289-a774-547de9333987"
-					(reference "FUEL_PUMP_RELAY_U1")
+					(reference "FUEL_PUMP_RELAY_U2")
 					(unit 1)
 				)
 			)
@@ -8832,7 +8832,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1aade75-216d-4ead-9464-1ef0c60e8d0c")
-		(property "Reference" "RADIATOR_FAN_RELAY_U2"
+		(property "Reference" "RADIATOR_FAN_RELAY_U3"
 			(at 212.598 114.554 0)
 			(effects
 				(font
@@ -8901,7 +8901,7 @@
 		(instances
 			(project "M130-RIFB"
 				(path "/3eed3d9c-f5f4-4289-a774-547de9333987"
-					(reference "RADIATOR_FAN_RELAY_U2")
+					(reference "RADIATOR_FAN_RELAY_U3")
 					(unit 1)
 				)
 			)
