@@ -8,7 +8,7 @@
 
 ## Overview
 
-![M130-Distribution-HUB PCB](images/M130-Distribution-HUB.png)
+![M130-Distribution-HUB PCB](images/M130-Distribution-HUB-TOP-SIDE.png)
 
 The M130-Distribution-HUB provides centralized power distribution, relay control, and sensor interfacing for MoTeC M130 ECU-equipped race vehicles. Designed for Formula SAE competition with the Yamaha WR450F engine, this PCB implements motorsports grade reliability features including comprehensive via stitching, proper EMI shielding, differential pair routing, and universal teardrops for vibration resistance.
 
