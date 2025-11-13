@@ -1,6 +1,12 @@
+
 # M130-Distribution-HUB
 
-[![License: CERN-OHL-P-2.0](https://img.shields.io/badge/License-CERN--Ops://img.shields.io/badge/KiCad-9. Weight](https://img.shields.io/badge/Copper-1oz-orange..Open-source power distribution and control PCB for MoTeC M130 ECU integration in Formula SAE IC vehicles.
+[![License: CERN-OHL-P-2.0](https://img.shields.io/badge/License-CERN--OHL--P--2.0-blue.svg)](https://ohwr.org/cern_ohl_p_v2.txt)
+[![KiCad](https://img.shields.io/badge/KiCad-9.0-blue.svg)](https://www.kicad.org/)
+[![PCB Layers](https://img.shields.io/badge/PCB-4--Layer-green.svg)](https://github.com/WindingMotor/M130-Distribution-HUB)
+[![FSAE](https://img.shields.io/badge/FSAE-Competition-red.svg)](https://www.fsaeonline.com/)
+
+## Overview
 
 ![M130-Distribution-HUB PCB](images/M130-Distribution-HUB.png)
 
