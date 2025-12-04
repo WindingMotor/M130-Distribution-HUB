@@ -3178,9 +3178,9 @@
 		)
 		(uuid "68acf136-b10b-477d-89ea-afa729113245")
 	)
-	(text "GND TO ENABLE"
+	(text "12V TO EN"
 		(exclude_from_sim no)
-		(at 213.36 35.56 0)
+		(at 215.392 35.56 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -4324,16 +4324,6 @@
 		)
 		(uuid "0bc31e31-e0df-4e14-8d65-c06dbee3b087")
 	)
-	(label "MASTER_RELAY_EN"
-		(at 237.49 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0bed347a-6a26-4118-bf73-76f0dc8ae6bd")
-	)
 	(label "A23-INJ_LS1"
 		(at 44.45 55.88 180)
 		(effects
@@ -4964,6 +4954,16 @@
 		)
 		(uuid "8be4fa6e-b173-40df-bdae-69303dae8c3e")
 	)
+	(label "MASTER_RELAY_EN"
+		(at 237.49 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "922db5bc-c306-44c2-904d-03c0d0ff89e1")
+	)
 	(label "B21-AV7"
 		(at 44.45 96.52 180)
 		(effects
@@ -5174,6 +5174,16 @@
 		)
 		(uuid "b9a51fc6-60d5-451e-b51b-bd1479229676")
 	)
+	(label "MASTER_RELAY_EN"
+		(at 58.42 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba6788c0-ab2b-481b-aead-397ff2e70333")
+	)
 	(label "A01-OUT_HB2"
 		(at 44.45 27.94 180)
 		(effects
@@ -5215,14 +5225,14 @@
 		(uuid "bd965c1b-4c68-45d5-bc84-596de150273b")
 	)
 	(label "12V_BATT"
-		(at 58.42 110.49 180)
+		(at 237.49 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c13b3263-2000-4feb-a73e-8dd2678fb86a")
+		(uuid "c03ca3a2-2af7-4c63-9307-7ae314c81723")
 	)
 	(label "B15-SEN_0V_A"
 		(at 241.3 71.12 180)
@@ -5463,16 +5473,6 @@
 			(justify left bottom)
 		)
 		(uuid "ef0e36fa-d046-4022-bd67-50c759792c16")
-	)
-	(label "MASTER_RELAY_EN"
-		(at 45.72 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f6ec6edc-8c42-41f6-97ed-587e42b364c1")
 	)
 	(label "12V_OUT_MASTER_RELAY"
 		(at 241.3 78.74 0)
@@ -8253,7 +8253,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9120,6 +9119,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 45.72 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c12c89e7-73fa-445a-b999-5348fecd104a")
+		(property "Reference" "#PWR025"
+			(at 39.37 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 42.926 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73aed4d4-d6cf-4b2f-8eff-cd4baa41982e")
+		)
+		(instances
+			(project "M130-Distribution-HUB"
+				(path "/3eed3d9c-f5f4-4289-a774-547de9333987"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:BARK-S-112DM")
 		(at 218.44 124.46 0)
 		(unit 1)
@@ -9529,72 +9594,6 @@
 			(project "M130-RIFB"
 				(path "/3eed3d9c-f5f4-4289-a774-547de9333987"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 237.49 36.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f85cda3c-f633-46b4-8b68-c07475794628")
-		(property "Reference" "#PWR011"
-			(at 231.14 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 234.696 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3f94529-5e9a-445c-85ec-20d9258c70dd")
-		)
-		(instances
-			(project "M130-RIFB"
-				(path "/3eed3d9c-f5f4-4289-a774-547de9333987"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
