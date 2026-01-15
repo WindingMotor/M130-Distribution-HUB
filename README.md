@@ -10,7 +10,7 @@
 
 ![M130-Distribution-HUB PCB](images/M130-Distribution-HUB-TOP-SIDE.png)
 
-The M130-Distribution-HUB provides centralized power distribution, relay control, and sensor interfacing for MoTeC M130 ECU-equipped race vehicles. Designed for Formula SAE competition with the Yamaha WR450F engine, this PCB implements motorsports grade reliability features including comprehensive via stitching, proper EMI shielding, differential pair routing, and universal teardrops for vibration resistance.
+The M130-Distribution-HUB provides centralized power distribution, relay control, and sensor interfacing for MoTeC M130 ECU-equipped race vehicles. Designed for Formula SAE competition with the Yamaha WR450F engine.
 
 ### Key Features
 
@@ -75,7 +75,7 @@ The PCB receives 12V battery & alternator power and distributes it through relay
 - **Via Stitching**: Comprehensive thermal and EMI management with 4-layer stitched vias on high-current relay zones
 - **Dual Ground Planes**: Solid inner layers for signal integrity and low-impedance return paths
 - **Differential Pair Routing**: For CAN bus and Ethernet
-- **Universal Teardrops**: Enhanced vibration resistance for motorsports environments
+- **Universal Teardrops**: PCB designed fir vibration resistance for motorsports environments
 - **EMI Shielding**: Grounding via fence between high-power traces and sensitive signals
 - **Conformal Coating Ready**: PCB accommodates post assembly coating for extra environmental protection
 
@@ -103,14 +103,6 @@ Before vehicle installation:
 - **Isolation Test**: Confirm >10MΩ resistance between power and ground
 - **Relay Function**: Enable each relays coil, verify contact closure with multimeter
 - **Fuse Ratings**: Confirm proper fuse installation for each circuit
-
-## Manufacturing
-
-Design files compatible with JLCPCB 4-layer PCB service:
-- **Board Thickness**: 1.6mm standard
-- **Surface Finish**: ENIG recommended for reliability
-- **Soldermask**: Green (Or whatever you want)
-- **Silkscreen**: White (Or also whatever you want)
 
 ## License
 
