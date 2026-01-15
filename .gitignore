@@ -1,1 +1,9 @@
+
+# Backup files
 ./M130-Distribution-HUB-backups
+
+# KiCad lock files
+./~M130-Distribution-HUB.kicad_pcb
+./~M130-Distribution-HUB.kicad_sch
+
+
