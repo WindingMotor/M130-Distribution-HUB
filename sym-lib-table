@@ -3,4 +3,5 @@
   (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/EasyEDA.kicad_sym")(options "")(descr ""))
   (lib (name "DT15-2P")(type "KiCad")(uri "${KIPRJMOD}/DT15-2P.kicad_sym")(options "")(descr ""))
   (lib (name "3568")(type "KiCad")(uri "${KIPRJMOD}/3568.kicad_sym")(options "")(descr ""))
+  (lib (name "1991192")(type "KiCad")(uri "${KIPRJMOD}/1991192/1991192.kicad_sym")(options "")(descr ""))
 )

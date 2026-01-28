@@ -5828,7 +5828,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f1832fc-2ccc-4942-b976-351272bccf42")
 		(property "Reference" "PWR_IN/RELAY_CN3"
-			(at 182.88 35.5599 0)
+			(at 182.88 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,8 +5836,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1190310"
-			(at 182.88 38.0999 0)
+		(property "Value" "1991192"
+			(at 182.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,7 +5845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:CONN-TH_12P-P5.00_1190310"
+		(property "Footprint" "EasyEDA:PHOENIX_1991192"
 			(at 179.07 58.42 0)
 			(effects
 				(font
@@ -5937,7 +5937,7 @@
 		(fields_autoplaced yes)
 		(uuid "2250a08e-efca-4f1a-b86e-ffdd0bac5f0a")
 		(property "Reference" "SENSORS_CN1"
-			(at 125.73 36.8299 0)
+			(at 125.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,8 +5945,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1190310"
-			(at 125.73 39.3699 0)
+		(property "Value" "1991192"
+			(at 125.73 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,7 +5954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:CONN-TH_12P-P5.00_1190310"
+		(property "Footprint" "EasyEDA:PHOENIX_1991192"
 			(at 121.92 59.69 0)
 			(effects
 				(font
@@ -6398,7 +6398,7 @@
 		(fields_autoplaced yes)
 		(uuid "44ecc775-3c3d-468b-bd65-cd95c92bb61c")
 		(property "Reference" "PADDLE_SHIFTER_CN4"
-			(at 182.88 72.3899 0)
+			(at 182.88 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6406,8 +6406,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1190310"
-			(at 182.88 74.9299 0)
+		(property "Value" "1991192"
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,7 +6415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:CONN-TH_12P-P5.00_1190310"
+		(property "Footprint" "EasyEDA:PHOENIX_1991192"
 			(at 179.07 95.25 0)
 			(effects
 				(font
@@ -8021,7 +8021,7 @@
 		(fields_autoplaced yes)
 		(uuid "90852cee-3c7c-4a00-a8d0-766dd0bbd43f")
 		(property "Reference" "SENSORS_CN2"
-			(at 130.81 74.9299 0)
+			(at 130.81 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8029,8 +8029,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1190310"
-			(at 130.81 77.4699 0)
+		(property "Value" "1991192"
+			(at 130.81 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,7 +8038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:CONN-TH_12P-P5.00_1190310"
+		(property "Footprint" "EasyEDA:PHOENIX_1991192"
 			(at 127 97.79 0)
 			(effects
 				(font
@@ -8130,7 +8130,7 @@
 		(fields_autoplaced yes)
 		(uuid "94197d26-d569-40dc-a250-1a47d0aa105e")
 		(property "Reference" "PWR_OUT/ETH_CN5"
-			(at 246.38 36.8299 0)
+			(at 246.38 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,8 +8138,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1190310"
-			(at 246.38 39.3699 0)
+		(property "Value" "1991192"
+			(at 246.38 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,7 +8147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:CONN-TH_12P-P5.00_1190310"
+		(property "Footprint" "EasyEDA:PHOENIX_1991192"
 			(at 242.57 59.69 0)
 			(effects
 				(font

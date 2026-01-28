@@ -1,4 +1,4 @@
-26727750959739698
+26729524909868862
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61444,7 +61444,7 @@ DSUB-60P_SUPERSEAL
 
 0
 63
-60
+61
 EasyEDA
 FUSE_3568
 
@@ -61452,6 +61452,13 @@ FUSE_3568
 0
 4
 4
+EasyEDA
+PHOENIX_1991192
+
+
+0
+24
+12
 EasyEDA
 RELAY-TH_BARK-S-112DM
 
