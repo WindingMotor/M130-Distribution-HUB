@@ -3178,6 +3178,16 @@
 		)
 		(uuid "68acf136-b10b-477d-89ea-afa729113245")
 	)
+	(text "Wed, Feb, 4th"
+		(exclude_from_sim no)
+		(at 211.074 193.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "69cf433f-6a44-4913-887e-4d76d09d0083")
+	)
 	(text "12V TO EN"
 		(exclude_from_sim no)
 		(at 215.392 35.56 0)
@@ -3318,6 +3328,16 @@
 		)
 		(uuid "99672c70-9473-4f67-9b58-da1bc34d54b5")
 	)
+	(text "Designed by: Isaac Subudhi"
+		(exclude_from_sim no)
+		(at 273.304 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a296c853-58ef-41ae-a71a-c0cd6c2615e2")
+	)
 	(text "verif"
 		(exclude_from_sim no)
 		(at 162.814 29.972 0)
@@ -3387,6 +3407,16 @@
 			)
 		)
 		(uuid "d5254b94-d5c9-4ca0-914a-f0db712dd38d")
+	)
+	(text "M130-Distribution-HUB"
+		(exclude_from_sim no)
+		(at 194.818 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8422037-5d14-407a-a632-f9cf5750b39b")
 	)
 	(text "SHIFTER_IN"
 		(exclude_from_sim no)

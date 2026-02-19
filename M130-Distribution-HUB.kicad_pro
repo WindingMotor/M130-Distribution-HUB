@@ -524,7 +524,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/",
+      "plot": "gerber2/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../Downloads/M130-RIFB.step",
