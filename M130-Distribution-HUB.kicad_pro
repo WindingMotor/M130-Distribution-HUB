@@ -527,7 +527,7 @@
       "plot": "gerber2/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../Downloads/M130-RIFB.step",
+      "step": "../../../Downloads/v1.1M130-RIFB.step",
       "svg": "",
       "vrml": ""
     },
